@@ -8,7 +8,7 @@ fig, ax = plt.subplots()
 
 # variables 'red', 'orange', 'yellow', 'green', 'blue', 'purple'
 
-colours = pd.Series(('#86007D', '#0000F9', '#008018', '#FFFF41', '#FFA52C', '#FF0018'))
+colours = pd.Series(('#FF0018', '#FFA52C', '#FFFF41', '#008018', '#0000F9', '#86007D'))
 c_Tags = pd.Series(('red', 'orange', 'yellow', 'green', 'blue', 'purple'))
 
 xvar = np.array([len(c_Tags)])
